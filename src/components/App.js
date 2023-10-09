@@ -10,7 +10,7 @@ const App = () => {
   }
   return (
     <div id="main">
-      <img src={star} onClick={changeArea} height={`${length}`} width={`${width}`} />
+      <img src={star} onClick={changeArea} height={`${length}px`} width={`${width}px`} />
     </div>
   )
 }
